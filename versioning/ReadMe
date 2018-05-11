@@ -2,9 +2,16 @@ structure :
  ------------ ------------
  | DIRECTORY |    FILE    |
  --------------------------
+ |           |  Makefile  |
+ |           |  release   |
+ |           |  version   |
+ ------------ ------------
  |   header  |  myhead.h  |
  ------------ ------------
  |   source  |  mainfun.c |
- ------------ ------------
- |           |  Makefile  |
  --------------------------
+
+ 
+ create file "release" having entry "0"
+ create file "version" having entry "1"
+ 
