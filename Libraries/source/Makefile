@@ -8,10 +8,7 @@ RM      = rm -f
 
 ISEXIST = $(shell echo `cat EXIST`)
 
-all : demo1 fileLog 
-
-demo1 : 
-	$(CC) -g -o demoexe demo1.c $(INIHEAD) $(INILIB)	
+all : fileLog	
 
 fileLog :
 	$(CC) $(OBJHEAD) -c -fPIC fileLog.c $(INIHEAD)	
@@ -22,7 +19,6 @@ endif
 
 
 clean :
-	$(RM) demoexe
 ifeq ($(ISEXIST),1)
 		$(RM) fileLog.o
 		$(RM) $(SOPATH) 
