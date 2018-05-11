@@ -1,0 +1,19 @@
+create one file "EXIST" having entry "0"
+structure : 
+versioning/
+  ------------------------------
+ | DIRECTORY |      FILE       |
+ -------------------------------
+ |           |     EXIST       |
+ ------------ ------------------
+ |   conf    |  logLevel.conf  |
+ ------------ ------------------
+ |   header  |  headfileLog.h  |
+ ------------ ------------------
+ |   source  |   fileLog.c     |
+ |           |   Makefile      |  
+ -------------------------------
+
+source/
+# make
+# libfileLog.so will be created in libs folder
