@@ -1,1 +1,3 @@
-structre :
+run :
+  make
+  ./arithop --add 10 20
