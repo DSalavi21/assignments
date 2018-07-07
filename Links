@@ -7,3 +7,8 @@
 3) iniparser
   http://ndevilla.free.fr/iniparser/html/iniparser_8h.html
   
+4) encryption/decryption algos
+  OpenSSL AES : http://docs.huihoo.com/doxygen/openssl/1.0.1c/crypto_2aes_2aes_8h.html#a9b95c679d720e1c6c0c02b19bd0c46e6
+  AES Rijndael algo implementation demo : http://www.efgh.com/software/rijndael.htm
+  
+5) 
