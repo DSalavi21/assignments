@@ -1,3 +1,7 @@
 Advanced Encryption Standard(AES), Rijndael Implementation
 
 download OpenSSL latest release: https://www.openssl.org/source/ 
+
+/source/ make
+./en_dec_module ENCRYPT PASS_KEY
+./en_dec_module DECRYPT PASS_KEY
