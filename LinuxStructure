@@ -1,0 +1,69 @@
+/          Root (starting point of your directory structure)
+
+|---root          Home reserved for root user
+
+|---etc           Configuration files specific to the machine.
+
+|---etc/inittab   describes processes to be started /stopped
+
+|---etc/fstab     descriptive information about the file systems
+
+|   and their mount points
+
+|---etc/passwd    contains information for user account
+
+|
+
+|---home          Contains the user's home directories
+
+|---bin           Commands needed during start-up
+
+|---sbin          Commands run by system administrators
+
+|---proc          This mount point is virtual
+
+|---usr    Contains all commands, libraries, man pages and
+
+|   static files
+
+|---usr/doc              Documentation for the user apps
+
+|---usr/src               Code sources files for the system's software,
+
+|   contains also Linux kernel
+
+|---usr/include   Header files for the C compiler
+
+|---usr/X11R6     X Window System directory
+
+|
+
+|---boot          Files used during boot, LILO (vmlinuz Kernel
+
+|                 images can be stored).
+
+|---lib           Shared libraries needed by the programs on the
+
+|                 root filesystem
+
+|---dev           Device files for devices such as disk drives,
+
+|                 serial ports, etc.
+
+|
+
+|---var           Contains files that change for mail, log files,
+
+|                 man pages, temp files
+
+|---mnt           Mount points for temporary mounts by the system
+
+|                 administrator.
+
+|---tmp           Temporary files.
+
+|---lost+found    Contains files to restores after a system crash
+
+|                 or partition not un-mounted before a system
+
+|                 shutdown
