@@ -1,3 +1,7 @@
+#
+# LINUX DIRECTORY STRUCTURE
+#
+
 /          Root (starting point of your directory structure)
 
 |---root          Home reserved for root user
