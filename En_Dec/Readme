@@ -1,0 +1,1 @@
+g++ -o run_en_dec en_dec.cpp
