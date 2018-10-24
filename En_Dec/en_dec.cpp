@@ -294,6 +294,7 @@ int main(int argc, char **argv)
 	else
 	{
 		cout << "Incorrect arguments..." <<endl;
+                cout << "Use :\t[./run_en_dec] [--encrypt or --decrypt] [string]" <<endl;
 		return -1;
 	}
 	return 0;
